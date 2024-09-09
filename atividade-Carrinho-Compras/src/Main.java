@@ -22,7 +22,6 @@ public class Main {
         float quantTotal = carrinho.getQuantProdutos();
         System.out.println("\nQuantidade Total: " + quantTotal);
 
-
         ArrayList<Produto> produtos = carrinho.getProdutos();
         System.out.println("\nProdutos: ");
         System.out.println("Index: \t\tNome: \t\tPreço:");
