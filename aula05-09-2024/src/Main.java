@@ -1,12 +1,18 @@
-public class annotation {
+public class Main {
     public static void main(String[] args) {
+        Annotation.Aluno aluno = new Annotation.Aluno(); //Instância da Classe Annotation.Aluno()
+        aluno.setNome("Arthur");
+        System.out.println("Nome do Aluno criado: " + aluno.getNome());
+    }
+
+    public class Annotation {
         //POO - Programação Orientata a Objetos -> Modelo de organização de códigos baseado em Classes e Objetos, facilitando a refatoração, organização dos dados, e reutilização do código
         //CLASSES -> Modelos conceitual que une os estruturas, dados e comportamentos relacionados
         //ATRIBUTOS -> São os dados associados as classes
         //MÉTODOS -> São as funcionalidades associadas as classes
         //OBJETO -> É uma instância da classe
 
-        public class Aluno { //Declaração da Classe
+        public static class Aluno { //Declaração da Classe
             //Atributos:
             String nome;
             int idade;
@@ -19,13 +25,10 @@ public class annotation {
                 return nome;
             }
 
-            public String getCpf() {
-                return cpf;
+            public void setNome(String newNome) {
+                this.nome = newNome;
             }
         }
-
-        Aluno aluno1 = new Aluno(); //Instanciar a Classe -- OBJETO
-
 
         //CONCEITOS DA POO:
         //POLIMORFISMO
