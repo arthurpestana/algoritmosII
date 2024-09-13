@@ -35,9 +35,12 @@ public class Biblioteca {
         return emprestimos;
     }
     public ArrayList<Livro> getLivrosEmprestimos() {
-        ArrayList<Livro> livrosEmprestimos = new ArrayList<>();
+        ArrayList<Livro> livrosEmprestimos = new ArrayList<Livro>();
         for (Livro livro : livros) {
-            if ()
+            if (livro.getStatus()) {
+                livrosEmprestimos.add(livro);
+            }
         }
+        return livrosEmprestimos;
     }
 }

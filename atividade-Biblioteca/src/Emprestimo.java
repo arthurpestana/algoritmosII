@@ -13,10 +13,24 @@ public class Emprestimo {
         this.livro.setStatus(true);
     }
 
-    public String getLivrosEmprestados() {
-        if (this.livro.getStatus()) {
-            return livro.getTitulo();
-        }
-        return null;
+    public Livro getLivro() {
+        return livro;
+    }
+    public void setLivro(Livro livro) {
+        this.livro = livro;
+    }
+
+    public Usuario getCliente() {
+        return cliente;
+    }
+    public void setCliente(Usuario cliente) {
+        this.cliente = cliente;
+    }
+
+    public Date getDataDevolucao() {
+        return dataDevolucao;
+    }
+    public void setDataDevolucao(Date dataDevolucao) {
+        this.dataDevolucao = dataDevolucao;
     }
 }
