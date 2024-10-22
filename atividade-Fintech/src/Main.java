@@ -1,8 +1,3 @@
-//Faça um aplicativo para uma Fintech que tenha conta
-//corrente, conta com limite e uma conta que têm
-//rendimento diário.
-
-
 import conta.*;
 
 public class Main {
