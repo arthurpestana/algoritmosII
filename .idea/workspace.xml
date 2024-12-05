@@ -48,7 +48,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/arthur/Documents/unitins/2º Período/algoritmosII/atividade-Interface/atividade1/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/arthur/Documents/unitins/2º Período/algoritmosII/atividade-ClasseAbstrata/atividade1-ClasseAbstrata/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -58,6 +58,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arthur\Documents\unitins\2º Período\algoritmosII\atividade-Interface\atividade1\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arthur\Documents\unitins\2º Período\algoritmosII" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -85,6 +88,7 @@
       <workItem from="1729628560127" duration="1130000" />
       <workItem from="1730986986705" duration="1552000" />
       <workItem from="1733352495719" duration="3271000" />
+      <workItem from="1733357604651" duration="3245000" />
     </task>
     <servers />
   </component>
@@ -108,6 +112,11 @@
           <url>file://$PROJECT_DIR$/atividade-Interface/Interfaces/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/atividade-ClasseAbstrata/atividade1-ClasseAbstrata/src/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
